@@ -1,0 +1,38 @@
+/* Estilização geral */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contêiner principal */
+  .container {
+    text-align: center;
+  }
+  
+  /* Estilo do texto */
+  h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ff4500; /* Laranja vibrante */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Sombra para destaque */
+    animation: pulsar 1.5s infinite alternate;
+  }
+  
+  /* Animação para o texto */
+  @keyframes pulsar {
+    from {
+      transform: scale(1);
+      color: #ff4500;
+    }
+    to {
+      transform: scale(1.2);
+      color: #ffd700; /* Dourado */
+    }
+  }
+  
